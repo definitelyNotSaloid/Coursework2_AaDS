@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NUnit" Version="3.12.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.16.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Coursework2_AaDS">
+      <HintPath>..\..\bin\Release\netcoreapp3.1\Coursework2_AaDS.dll</HintPath>
+    </Reference>
+    <Reference Include="Lab1_AaDS">
+      <HintPath>..\..\bin\Release\netcoreapp3.1\Lab1_AaDS.dll</HintPath>
+    </Reference>
+    <Reference Include="Lab21_AaDS">
+      <HintPath>..\..\bin\Release\netcoreapp3.1\Lab21_AaDS.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

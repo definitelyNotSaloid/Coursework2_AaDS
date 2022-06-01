@@ -1,0 +1,5 @@
+source b 3
+source c 4
+b c 2
+b drain 7
+c drain 7
